@@ -3,12 +3,17 @@
     margin: 0;
     box-sizing: border-box;
     color: hsl(228, 39%, 23%);
+    font-size: 16px;
+}
+.container {
+    max-width: 1300px;
 }
 
 .nav-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .nav-list li {
     padding: 8px;
@@ -19,20 +24,45 @@
     display: flex;
     padding-left: 0em;
 }
-.nav-list #logo-img {
-    margin-left: 40px;
-}
-.nav-list #nav-button {
-    margin-right: 40px;
-    padding-right: 20px;
-}
-.nav-list .btn{
+
+.nav-list .btn, main .btn{
     background-color: hsl(12, 88%, 59%);
     border-radius: 20px;
-    
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    padding-left: 12px;
+    padding-right: 12px;
 }
-#position-img {
-    position: absolute;
-    top: 0;
-    right: 0;
+/*section {
+    border: 0.1px solid darkblue;
+}
+section div {
+    border: 0.5px solid darkblue;
+}*/
+main .main-box-1 {
+    margin-top: 8rem;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+main .main-box-a h1 {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+
+}
+main .main-box-a p {
+    padding-bottom: 1.5rem;
+    text-align: left;
+    padding-right: 3rem;
+}
+main .main-box-a {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1.5rem;
+    padding-right: 2.5rem;
+}
+main .main-box-b img {
+    margin-top: 0;
+    padding-left: 2em;
+    max-width: 115%;
 }
