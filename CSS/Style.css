@@ -14,6 +14,8 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    padding-left: 0;
+    padding-right: 0;
 }
 .nav-list li {
     padding: 8px;
@@ -40,7 +42,7 @@ section div {
 }*/
 main .main-box-1 {
     margin-top: 8rem;
-    padding-left: 8%;
+    padding-left: 4%;
     padding-right: 8%;
 }
 main .main-box-a h1 {
@@ -66,3 +68,17 @@ main .main-box-b img {
     padding-left: 2em;
     max-width: 115%;
 }
+
+main .main-box-2 {
+    margin-bottom: 3rem;
+    margin-top: 6rem;
+}
+.main-box-2 .main-box-a {
+    padding-left: 5%;
+    
+}
+.main-box-2 .main-box-a h2 {
+    margin-bottom: 2rem;
+}
+
+
