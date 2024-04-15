@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: hsl(228, 39%, 23%);
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-list li {
+    padding: 8px;
+    margin: 8px;
+    list-style: none;
+}
+.nav-list-second {
+    display: flex;
+    padding-left: 0em;
+}
+.nav-list #logo-img {
+    margin-left: 40px;
+}
+.nav-list #nav-button {
+    margin-right: 40px;
+    padding-right: 20px;
+}
+.nav-list .btn{
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 20px;
+    
+}
