@@ -97,8 +97,8 @@ main .main-box-2 {
 body {
     background-image: url("/images/bg-tablet-pattern.svg");
     background-repeat: no-repeat;
-   background-position: 150% -25%;
-   background-size: 60vw;
+   background-position: 105% -30%;
+   background-size: 50vw;
 }
 .c-1 img {
     width: 50px;
@@ -129,14 +129,14 @@ body {
     margin-right: auto;
     margin-top: -20px;
 }
-.slide-show  h4{
+.title-slide-people {
     text-align: center;
-    padding: 10px;
-    margin-bottom: 10px;
+    margin: 25px;
+    padding: 25px;
 }
 
 .swiper {
-   width: 50%;
+   width: 30%;
    height: 300px;
 }
 
