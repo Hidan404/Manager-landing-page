@@ -100,4 +100,46 @@ body {
    background-position: 150% -25%;
    background-size: 60vw;
 }
+.c-1 img {
+    width: 50px;
+    height: 50px;
+}
+.slide-show .slider {
+    display: flex;
+}
 
+.slide-show .c-1 {
+    background: hsl(0, 0%, 98%);
+    border-radius: 10px;
+    margin: 30px;
+    width: 200px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    border: none;
+    padding: 30px;
+
+}
+.slide-show img {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+}
+.slide-show  h4{
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.swiper {
+   width: 50%;
+   height: 300px;
+}
+
+.slide-show {
+    max-width: 1300px;
+}
