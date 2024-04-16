@@ -80,5 +80,24 @@ main .main-box-2 {
 .main-box-2 .main-box-a h2 {
     margin-bottom: 2rem;
 }
+.aside-title {
+    display: flex;
+}
+.aside-title span {
+   display: inline-block;
+   background-color: hsl(12, 88%, 59%);
+   width: 15%;
+   height: 5%;
+   margin-right: 2rem;
+   text-align: center;
+   padding: 8px;
+   border-radius: 15px;
+}
 
+body {
+    background-image: url("/images/bg-tablet-pattern.svg");
+    background-repeat: no-repeat;
+   background-position: 150% -25%;
+   background-size: 60vw;
+}
 
