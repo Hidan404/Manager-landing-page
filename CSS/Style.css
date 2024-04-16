@@ -184,3 +184,20 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+footer {
+    background-color:  hsl(233, 12%, 13%);
+    height: 250px;
+}
+footer .box-img {
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+footer ul {
+    display: flex;
+    margin-top: 5rem;
+    list-style: none;
+}
+footer ul li {
+    padding: 6px;
+}
