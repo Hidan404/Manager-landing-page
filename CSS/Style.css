@@ -191,13 +191,70 @@ footer {
 }
 footer .box-img {
     margin-left: 2rem;
-    margin-top: 2rem;
+    margin-top: 3rem;
+    margin-left: 6.5rem;
+    fill: aliceblue;
 }
 footer ul {
     display: flex;
     margin-top: 5rem;
+    margin-left: 4rem;
     list-style: none;
 }
 footer ul li {
     padding: 6px;
+}
+
+footer .lista-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 2rem;
+}
+footer .lista-footer-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+footer .box-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer input {
+    padding: 5px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    margin-right: 1rem;
+}
+footer #button-go {
+    padding: 7px;
+    border-radius: 15px;
+    margin-right: 5rem;
+}
+.semi-footer {
+    background: url("/images/bg-simplify-section-desktop.svg") hsl(12, 88%, 59%);
+    background-repeat: no-repeat;
+    background-position-x: 200px;
+    background-position-y: -100px;
+}
+
+main {
+    background: url("/images/bg-tablet-pattern.svg");
+    background-repeat: no-repeat;
+    background-position: -500px;
+}
+
+@media (max-width: 1440px){
+    body {
+        background-image: url("/images/bg-tablet-pattern.svg");
+        background-repeat: no-repeat;
+        background-position: 115% -6%;
+        background-size: 55vw;
+    }
 }
