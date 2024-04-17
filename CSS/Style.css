@@ -133,7 +133,7 @@ body {
     position: absolute;
     right: 50%;
     top: 8px;
-    left: 43%;
+    left: 46%;
     margin-left: auto;
     margin-right: auto;
     margin-top: -30px;
@@ -266,5 +266,108 @@ main {
         background-repeat: no-repeat;
         background-position: 115% -6%;
         background-size: 55vw;
+    }
+}
+
+
+
+@media only screen and (max-width: 375px) {
+    * {
+        font-size: 14px; 
+    }
+    .navbar-toggle {
+        display: block;
+        position: absolute;
+        top: 0.5rem;
+        right: 1%;
+
+    }
+    .navbar-toggle img {
+        fill: hsl(228, 39%, 23%);
+        color: hsl(228, 39%, 23%);
+        border: none;
+        background: none;
+    }
+    #nav-button {
+        display: none;
+    }
+    .container {
+        padding: 0 10px; 
+    }
+
+    .nav-list {
+        padding: 0; 
+    }
+
+    .nav-list li {
+        padding: 4px; /
+    }
+
+    .nav-list-second {
+        display: none; 
+
+    }
+    .nav-list-second {
+        width: 95%;
+        background-color: #fff;
+        margin: auto;
+        text-align: center;
+    }
+
+    .nav-list .btn,
+    main .btn {
+        font-size: 14px; 
+        padding: 8px 16px; 
+    }
+
+    main .main-box-1 {
+        margin-top: 4rem; 
+    }
+
+    main .main-box-a h1 {
+        font-size: 24px; 
+    }
+
+    main .main-box-a p {
+        padding-right: 2rem; 
+    }
+
+    main .main-box-b img {
+        padding-left: 0; 
+        max-width: 100%; 
+    }
+
+    .swiper {
+        width: 100%; 
+        max-height: none; 
+    }
+
+    .swiper-slide {
+        margin: 0 auto; 
+        width: 80%; 
+    }
+
+    .button-down .btn {
+        margin-top: 3rem; 
+        margin-bottom: 5rem; 
+    }
+
+    .semi-footer {
+        height: auto; 
+    }
+
+    .semi-footer .semi-footer-a,
+    .semi-footer .semi-footer-b {
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+    }
+
+    footer ul {
+        margin-top: 3rem; 
+        margin-left: 0; 
+    }
+    footer{
+        height: auto;
     }
 }

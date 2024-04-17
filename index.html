@@ -20,11 +20,14 @@
     <header class="header-man  position-relative">
       <nav class="navbar-main ">
         <div>
-          <ul class="nav-list m-4">
+          <button class="navbar-toggle" id="hamburger">
+            <img id="iconeX" src="images/icon-hamburger.svg" onclick="Click()" alt="icone hamburguer">
+          </button>
+          <ul  class="nav-list m-4">
             <li id="logo-img" class="ml-4"> 
-              <img src="images/logo.svg" alt="">
+              <img src="images/logo.svg" alt="Logo da pagina">
             </li>
-            <ul class="nav-list-second">
+            <ul id="list-items-menu" class="nav-list-second">
               <li>Pricing</li>
               <li>Product</li>
               <li>About Us</li>
@@ -34,6 +37,7 @@
             <li id="nav-button" class="mr-4">
               <button class="btn btn-secondary">Get Started</button>
             </li>
+            
           </ul>
         </div>
       </nav>
@@ -219,12 +223,28 @@
   
   
 
-  Copyright 2020. All Rights Reserved
-
+  
   
   
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="app.js"></script>
+  <script>
+    function Click(){
+      let imagemIcone = document.getElementById("iconeX");
+      let lista = document.getElementById("list-items-menu");
+
+      if(lista.style.display == "none"){
+        lista.style.display = "block";
+        imagemIcone.setAttribute("src", "images/icon-close.svg")
+      }
+      else{
+        lista.style.display = "none";
+        imagemIcone.setAttribute("src", "images/icon-hamburger.svg")
+      }
+
+    }
+    
+  </script>
 </body>
 </html>
