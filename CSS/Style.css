@@ -488,6 +488,7 @@ main {
     }
     footer .box-1 li {
         padding: 3px;
+        cursor: pointer;
     }
     footer .box-1 img {
         display: flex;
