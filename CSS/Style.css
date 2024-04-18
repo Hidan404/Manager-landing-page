@@ -114,14 +114,14 @@ main .main-box-2 {
     margin-bottom: 2rem;
 }
 #list-false-1  p , #list-false-2 p, #list-false-3 p {
-    margin-left: 6rem;
+    margin-left: 10.8rem;
 }
 
 
 body {
     background-image: url("/images/bg-tablet-pattern.svg");
     background-repeat: no-repeat;
-   background-position: 105% -30%;
+   background-position: 105% -16%;
    background-size: 50vw;
 }
 .c-1 img {
@@ -250,7 +250,7 @@ footer .box-4 {
     justify-content: center;
 }
 footer input {
-    padding: 5px;
+    padding: 10px;
     border-radius: 25px;
     outline: none;
     border: none;
@@ -260,6 +260,8 @@ footer #button-go {
     padding: 7px;
     border-radius: 15px;
     margin-right: 5rem;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .semi-footer {
     background: url("/images/bg-simplify-section-desktop.svg") hsl(12, 88%, 59%);
