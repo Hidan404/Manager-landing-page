@@ -364,19 +364,44 @@ main {
         max-width: 100%; 
     }
 
-    main .c-1 {
-        margin: ;
-
+    main {
+        background: url("/images/bg-tablet-pattern.svg");
+        background-repeat: no-repeat;
+        background-position-x: 200px;
+        background-position-y: 420px;
+        background-size: 80vw;
+        
     }
+
+    .aside-title {
+        background-color: hsl(13, 100%, 96%);
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        border-radius: 5px;
+    }
+    
 
     .slide-show img {
         position: absolute;
         right: 50%;
         top: 8px;
-        left: 41%;
+        left: 43%;
         margin-left: auto;
         margin-right: auto;
         margin-top: -30px;
+    }
+
+    .slide-show .c-1 {
+        background: hsl(0, 0%, 98%);
+        
+        margin: 0px;
+        width: 240px;
+        box-shadow: none;
+        border: none;
+        padding: 30px;
+    
     }
 
     .swiper {
@@ -396,6 +421,18 @@ main {
 
     .semi-footer {
         height: auto; 
+        background: url("/images/bg-simplify-section-mobile.svg") hsl(12, 88%, 59%);
+        background-repeat: no-repeat;
+        background-position-x: 0px;
+        background-position-y: -50px;
+    }
+    .semi-footer-a {
+        margin-top: 5rem;
+        margin-bottom: -4rem;
+        
+    }
+    .semi-footer-a p {
+
     }
 
     .semi-footer .semi-footer-a,
@@ -404,6 +441,7 @@ main {
         align-items: center; 
         text-align: center; 
     }
+    
 
     footer ul {
         margin-top: 3rem; 
@@ -411,5 +449,57 @@ main {
     }
     footer{
         height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+    footer .box-1{
+        order: 4;
+        width: 100%;
+        flex-direction: column-reverse;
+        
+    }
+    footer .box-1 ul {
+        justify-content: center;
+        padding-right: 4rem;
+        color: #fff;
+    }
+    footer .box-1 li {
+        padding: 3px;
+    }
+    footer .box-1 img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 2rem;
+    }
+
+    footer .box-4 {
+        order: 1;
+        
+    }
+    footer .box-4 input {
+        margin-left: 5rem;
+        margin-top: 2rem;
+    }
+    footer .box-4 #button-go {
+        margin-top: 2rem;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    footer .box-2 , footer .box-3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        width: 50%;
+        order: 2;
+    }
+
+    footer .box-3 ul {
+        margin-top: 0;
+        margin-right: 2rem;
+    }
+
 }
