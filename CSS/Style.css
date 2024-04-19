@@ -292,7 +292,12 @@ main {
         font-size: 14px; 
     }
 
-
+    body {
+        background-image: url("/images/bg-tablet-pattern.svg");
+        background-repeat: no-repeat;
+       background-position: -60% -1%;
+       background-size: 110vw;
+    }
 
     .navbar-toggle {
         display: block;
