@@ -379,7 +379,8 @@ main {
     }
 
     main .main-box-a p {
-        padding-right: 2rem; 
+        padding-right: 0.1rem; 
+        padding-left: 0.8rem;
         text-align: center;
     }
 
@@ -407,8 +408,8 @@ main {
         
         
     }
-    .list-false-2  span {
-        padding-left: -2%;
+    #list-false-2  span {
+        margin-left: -2.8rem;
     }
     
     #list-false-1 p, #list-false-2 p, #list-false-3 p {
