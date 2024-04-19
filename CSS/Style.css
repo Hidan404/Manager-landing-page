@@ -406,7 +406,9 @@ main {
         padding-left: -2%;
     }
     
-
+    #list-false-1 p, #list-false-2 p, #list-false-3 p {
+        margin-left: 5.4rem;
+    }
     .slide-show img {
         position: absolute;
         right: 50%;
