@@ -273,6 +273,7 @@ footer #button-go {
     background-position-y: -100px;
 }
 
+
 main {
     background: url("/images/bg-tablet-pattern.svg");
     background-repeat: no-repeat;
@@ -411,6 +412,9 @@ main {
         
         
     }
+    .aside-title span {
+        color: #fff;
+    }
     #list-false-2  span {
         margin-left: -2.8rem;
     }
@@ -503,6 +507,8 @@ main {
         padding: 3px;
         cursor: pointer;
     }
+
+    
     footer .box-1 img {
         display: flex;
         justify-content: center;
